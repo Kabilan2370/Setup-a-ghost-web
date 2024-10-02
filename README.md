@@ -26,13 +26,13 @@ publish content, send newsletters &amp; offer paid subscriptions to members.
 ### Next, you’ll need to install MySQL to be used as the production database.
     sudo apt-get install mysql-server
 
-# Enter mysql
+### Enter mysql
     sudo mysql
-# Update permissions
+### Update permissions
     ALTER USER 'root'@'localhost' IDENTIFIED WITH 'mysql_native_password' BY '<your-new-root-password>';
-# Reread permissions
+### Reread permissions
     FLUSH PRIVILEGES;
-# exit mysql
+### exit mysql
     exit
     
 ### Install Node.js
@@ -68,12 +68,21 @@ Ghost-CLI is a commandline tool to help you get Ghost installed and configured f
 ### Then navigate into it
     cd /var/www/web
     
-## Install Ghost
+### Install Ghost
 ### Run the install process
     ghost install
   
 > [!IMPORTANT]
->  it hangs up here "Downloading and installing Ghost v5.72.1 > Installing dependencies > [4/5] 
+>  it hangs up here "Downloading and installing Ghost v5.72.1 > Installing dependencies > [4/5]
+![image](1.png)
+
+> [1TIPS]
+> I was used AWS EC2 t2.micro which is only 1 GB RAM. It is not enough.That's why I chhosed t3.small it has 2GB RAM.
+![image](4.png)
+
+Finally, we successfully launched a ghost web page.
+
+![image](2.png)
 
                      
 
