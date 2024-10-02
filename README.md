@@ -76,7 +76,7 @@ Ghost-CLI is a commandline tool to help you get Ghost installed and configured f
     ghost install
   
 > [!IMPORTANT]
->  it hangs up here "Downloading and installing Ghost v5.72.1 > Installing dependencies > [4/5]
+>  it hangs up here "Downloading and installing Ghost v5.72.1 > Linking dependencies > [4/5]
 
 ![image](1.png)
 
