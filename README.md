@@ -74,10 +74,12 @@ Ghost-CLI is a commandline tool to help you get Ghost installed and configured f
   
 > [!IMPORTANT]
 >  it hangs up here "Downloading and installing Ghost v5.72.1 > Installing dependencies > [4/5]
+
 ![image](1.png)
 
-> [1TIPS]
+> [!TIPS]
 > I was used AWS EC2 t2.micro which is only 1 GB RAM. It is not enough.That's why I chhosed t3.small it has 2GB RAM.
+
 ![image](4.png)
 
 Finally, we successfully launched a ghost web page.
