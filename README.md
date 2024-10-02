@@ -2,6 +2,9 @@
   Ghost is a powerful app for professional publishers to create, share, and grow a business around their content. It comes with modern tools to build a website, 
 publish content, send newsletters &amp; offer paid subscriptions to members.
 
+A full guide for installing, configuring and running Ghost on your Ubuntu 20.04 or 22.04 server, for use in production
+### ![How to install Ghost on Ubuntu](https://forum.ghost.org/t/installation-hangs-up-on-4-5/42561)
+
 ### Create a new user and follow prompts
     sudo adduser <user>
     
@@ -77,7 +80,7 @@ Ghost-CLI is a commandline tool to help you get Ghost installed and configured f
 
 ![image](1.png)
 
-> [!TIPS]
+> [!TIP]
 > I was used AWS EC2 t2.micro which is only 1 GB RAM. It is not enough.That's why I chhosed t3.small it has 2GB RAM.
 
 ![image](4.png)
