@@ -1,5 +1,6 @@
 # Setup-a-ghost-web
-  Ghost is a powerful app for professional publishers to create, share, and grow a business around their content. It comes with modern tools to build a website, 
+# What is Ghost web ?
+   Ghost is a powerful app for professional publishers to create, share, and grow a business around their content. It comes with modern tools to build a website, 
 publish content, send newsletters &amp; offer paid subscriptions to members.
 
 A full guide for installing, configuring and running Ghost on your Ubuntu 20.04 or 22.04 server, for use in production
