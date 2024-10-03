@@ -81,7 +81,7 @@ Ghost-CLI is a commandline tool to help you get Ghost installed and configured f
 ![image](1.png)
 
 > [!TIP]
-> I was used AWS EC2 t2.micro which is only 1 GB RAM. It is not enough.That's why I chhosed t3.small it has 2GB RAM.
+> I was used AWS EC2 t2.micro which is only 1 GB RAM. It is not enough.That's why I choosed t3.small it has 2GB RAM enough to run smoothly.
 
 ![image](4.png)
 
