@@ -4,7 +4,7 @@
 publish content, send newsletters &amp; offer paid subscriptions to members.
 
 A full guide for installing, configuring and running Ghost on your Ubuntu 20.04 or 22.04 server, for use in production
-### [How to install Ghost on Ubuntu official page](https://forum.ghost.org/t/installation-hangs-up-on-4-5/42561)
+### [How to install Ghost on Ubuntu official page](https://ghost.org/docs/install/ubuntu/)
 
 ### Create a new user and follow prompts
     sudo adduser <user>
