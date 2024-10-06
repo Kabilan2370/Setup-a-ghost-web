@@ -91,6 +91,17 @@ Finally, we successfully launched a ghost web page.
 ![image](2.png)
 
 ![image](5.png)
+
+- Then, download a ghost web page using curl command on jenkins pipeline
+
+![image](jenkins.png)
+
+- That code save on jenkins workspace
+   
+      sudo /var/lib/jenkins/workspace/
+
+![image](output.png)
+
                      
 
 
