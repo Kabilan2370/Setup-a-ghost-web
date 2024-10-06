@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Download a code') {
+            steps {               
+                sh 'curl -o index.html http://54.226.70.135/ghost/'
+            }
+        }         
+    }
+}
