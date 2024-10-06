@@ -1,4 +1,4 @@
-# Setup-a-ghost-web
+# Setup-a-ghost-web-then-download-a-home-page-as-a-html-using-jenkins-pipeline
 # What is Ghost web ?
    Ghost is a powerful app for professional publishers to create, share, and grow a business around their content. It comes with modern tools to build a website, 
 publish content, send newsletters &amp; offer paid subscriptions to members.
