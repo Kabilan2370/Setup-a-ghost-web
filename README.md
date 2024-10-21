@@ -88,6 +88,47 @@ Ghost-CLI is a commandline tool to help you get Ghost installed and configured f
 
 Finally, we successfully launched a ghost web page.
 
+> [!TIP]
+> Another option is create a swap memory for 2GB.
+
+We can see if the system has any configured swap by typing.
+
+    sudo swapon --show
+    free -h
+    
+we’ll check our current disk usage to make sure we have enough space.
+
+    sudo fallocate -l 2G /swapfile
+
+We can verify that the correct amount of space was reserved by typing.
+
+    ls -lh /swapfile
+
+Enabling the Swap File.
+
+    sudo chmod 600 /swapfile
+
+Verify the permissions change by typing.
+
+    ls -lh /swapfile
+
+We can now mark the file as swap space.
+
+    sudo mkswap /swapfile
+
+After making the file, enable the swap file
+
+    sudo swapon /swapfile
+    
+Make the swap file permenent.Back up the /etc/fstab file in case anything goes wrong.
+
+    sudo cp /etc/fstab /etc/fstab.bak
+    
+Add the swap file information to the end of your /etc/fstab file by typing
+
+    echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+
+
 ![image](2.png)
 
 ![image](5.png)
